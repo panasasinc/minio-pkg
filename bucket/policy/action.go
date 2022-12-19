@@ -51,6 +51,9 @@ const (
 	// GetBucketLocationAction - GetBucketLocation Rest API action.
 	GetBucketLocationAction = "s3:GetBucketLocation"
 
+	// GetBucketPanFSPathAction - GetBucketPanFSPath Rest API action.
+	GetBucketPanFSPathAction = "panasas:GetBucketPanFSPath"
+
 	// GetBucketNotificationAction - GetBucketNotification Rest API action.
 	GetBucketNotificationAction = "s3:GetBucketNotification"
 
@@ -224,6 +227,7 @@ var supportedActions = map[Action]struct{}{
 	DeleteBucketPolicyAction:               {},
 	DeleteObjectAction:                     {},
 	GetBucketLocationAction:                {},
+	GetBucketPanFSPathAction:               {},
 	GetBucketNotificationAction:            {},
 	GetBucketPolicyAction:                  {},
 	GetObjectAction:                        {},
